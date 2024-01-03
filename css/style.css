@@ -1,1 +1,88 @@
 @charset "utf-8";
+/*
+ 아이디 선택자(#) : 문서 내에서 단 한번만 사용
+ 클래스 선택자(.) : 문서 내에서 여러번 반복/재사용
+*/
+* {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+}
+/* ================= 0. 스타일 공통속성 =================== */
+.mx-auto { /* margin + x-axis + auto */
+    margin: 0 auto; /* 상하 0, 좌우 auto(=자동으로) */    
+}
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px
+}
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text-center {
+    text-align: center;  /* 텍스트-정렬: 가로 가운데 */
+}
+.text-upper {
+    text-transform: uppercase;
+}
+
+/* ================= 1. 스타일 초기화 ===================== */
+
+* {
+    margin: 0;
+    padding: 0
+}
+.logo {
+    width: 100px;
+    height: 110px;
+    display: block;
+}
+
+.nav {
+    height: 60px;
+    line-height: 60px;  /* 행-높이(=행간): 높이와 같게하면, 수직 중앙에 배치 */
+    font-size: 14px;
+}
+.bg-nav {
+    background-color: #005891; /* 16진수HEX 색상코드 */
+}
+/* 
+    :link - link로 지정된 텍스트
+    :visited - link 텍스트를 클릭한 이후(방문한 적 있는)
+    :hover - hand+over : hover 
+    :active - link 텍스트를 클릭하고 있는 동안
+    ==> LoVe, HAte 순서를 지켜야, a 태그의 스타일이 제대로 적용됨
+*/
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover { 
+    color: #fcff00;
+    text-decoration: none;  /* 텍스트-꾸밈: 안함 */
+}
+
+.cf {
+    width: 800px;
+    height: 500px;
+}
+
+.movie-title {
+    font-size: 22px;
+}
+.movie-text {
+    font-size: 16px;
+    color: #555555;
+}
+.movie-poster {
+    width: 600px;
+    height: 300px;
+    font-size: 0
+}
