@@ -121,6 +121,9 @@ a:hover {
 .cs-number a { /* 하위 선택자 (=후손 선택자 : 아들, 딸, 손자, 손녀,....) */
     color: #005891;
 }
+.address {
+    line-height: 1.2em;
+}
 .address-ko {
     font-size: 13px;
 }
