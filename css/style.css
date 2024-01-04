@@ -100,3 +100,33 @@ a:hover {
 .bg-sns {
     background-color: #f3f3f3;
 }
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #005891;
+}
+
+/* ================= #footer ===================== */
+.cs-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #005891;
+}
+.cs-number {
+    font-size: 30px;
+    font-weight: 900;
+    color: #005891;
+}
+.cs-number a { /* 하위 선택자 (=후손 선택자 : 아들, 딸, 손자, 손녀,....) */
+    color: #005891;
+}
+.address-ko {
+    font-size: 13px;
+}
+.ownership-en {
+    font-size: 11px;
+}
+.brand {
+    font-style: italic;
+}
